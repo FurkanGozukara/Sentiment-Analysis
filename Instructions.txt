@@ -1,0 +1,46 @@
+-> If you use Turkish_Product_Reviews_by_Gozukara_and_Ozel_2016 dataset please cite: 
+
+-> Turkish_Product_Reviews_by_Gozukara_and_Ozel_2016 dataset is composed as below:
+->-> Top 50 E-commerce sites in Turkey are crawled and their comments are extracted. Then randomly 2000 comments selected and manually labelled by a field expert.
+->-> After manual labeling the selected comments is done, 600 negative and 600 positive comments are left. 
+->-> This dataset contains these comments.
+
+-> English_Movie_Reviews_by_Pang_and_Lee_2004
+->-> Pang, B., Lee, L., 2004. A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts, In Proceedings of the 42nd annual meeting on Association for Computational Linguistics (p. 271).
+->-> Source: https://www.cs.cornell.edu/people/pabo/movie-review-data/ | polarity dataset v2.0 - review_polarity.tar.gz 
+
+-> English_Movie_Reviews_Sentences_by_Pang_and_Lee_2005
+->-> Pang, B., Lee, L., 2005. Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales, In Proceedings of the 43rd Annual Meeting on Association for Computational Linguistics (pp. 115-124), Association for Computational Linguistics
+->-> Source: https://www.cs.cornell.edu/people/pabo/movie-review-data/ | sentence polarity dataset v1.0 - rt-polaritydata.tar.gz
+
+-> English_Product_Reviews_by_Blitzer_et_al_2007
+->-> Article of the dataset: Blitzer, J., Dredze, M., Pereira, F., 2007. Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification, In ACL (Vol. 7, pp. 440-447).
+->-> Source: http://www.cs.jhu.edu/~mdredze/datasets/sentiment/ | [processed_acl.tar.gz] (19 M)
+
+-> Turkish_Movie_Reviews_by_Demirtas_and_Pechenizkiy_2013
+->-> Demirtas, E., Pechenizkiy, M., 2013. Cross-lingual polarity detection with machine translation, In Proceedings of the Second International Workshop on Issues of Sentiment Discovery and Opinion Mining (p. 9). ACM. 
+->-> http://www.win.tue.nl/~mpechen/projects/smm/#Datasets Turkish_Movie_Sentiment.zip
+
+-> The dataset files are provided as used in the article. 
+-> Weka files are generated with Raw Frequency of terms rather than used Weighting Schemes
+
+-> The folder Cross_Validation contains 10-fold cross-validation each fold files.
+-> Inside Cross_Validation folder, each turn of the cross-validation is named as test_X where X is the turn number
+-> Inside test_X folder
+* Test_Set_Negative_RAW: Contains raw negative class Test data of that cross-validation turn
+* Test_Set_Negative_Processed: Contains pre-processed negative class Test data of that cross-validation turn
+* Test_Set_Positive_RAW: Contains raw positive class Test data of that cross-validation turn
+* Test_Set_Positive_Processed: Contains pre-processed positive class Test data of that cross-validation turn
+* Train_Set_Negative_RAW: Contains raw negative class Train data of that cross-validation turn
+* Train_Set_Negative_Processed: Contains pre-processed negative class Train data of that cross-validation turn
+* Train_Set_Positive_RAW: Contains raw positive class Train data of that cross-validation turn
+* Train_Set_Positive_Processed: Contains pre-processed positive class Train data of that cross-validation turn
+* Train_Set_For_Weka: Contains processed Train set formatted for Weka
+* Test_Set_For_Weka: Contains processed Test set formatted for Weka
+
+-> The folder Entire_Dataset contains files for Entire Dataset
+* Negative_Processed: Contains all negative comments processed data
+* Positive_Processed: Contains all positive comments processed data
+* Negative_RAW: Contains all negative comments RAW data
+* Positive_RAW: Contains all positive comments RAW data
+* Entire_Dataset_WEKA: Contains all documents processed data in WEKA format
