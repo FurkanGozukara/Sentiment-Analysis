@@ -1,4 +1,4 @@
--> If you use Turkish_Product_Reviews_by_Gozukara_and_Ozel_2016 dataset please cite: 
+-> If you use Turkish_Product_Reviews_by_Gozukara_and_Ozel_2016 dataset please cite: //The article is not published yet please contact us via : furkangozukara@gmail.com
 
 -> Turkish_Product_Reviews_by_Gozukara_and_Ozel_2016 dataset is composed as below:
 ->-> Top 50 E-commerce sites in Turkey are crawled and their comments are extracted. Then randomly 2000 comments selected and manually labelled by a field expert.
